@@ -3,7 +3,7 @@ import org.scalatest.matchers._
 
 class SenderSpec extends AnyFlatSpec with should.Matchers {
   behavior of "Sender"
-  it should "send message with header" in {
+  it should "add header to the message while sending" in {
     val first = new Sender("Mr. ")
     val actual = first.send("Robot")
     val expected = "Mr. Robot"
