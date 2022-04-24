@@ -17,5 +17,3 @@ class SenderSpec extends AnyFlatSpec with should.Matchers {
     second.numbers(7) shouldBe "Number 7"
   }
 }
-
-//x
